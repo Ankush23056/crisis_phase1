@@ -2,6 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Alert, AlertSeverity } from "../types";
 import { nearbyServices } from '../constants';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // FIX: Initialize GoogleGenAI with process.env.API_KEY as per the coding guidelines.
 // The API key is expected to be available in the execution environment.
